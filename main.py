@@ -22,7 +22,7 @@ def main(page: ft.Page):
 
                                   temp = ft.Text(size=48, weight=ft.FontWeight.BOLD, color=ft.Colors.WHITE)
                                   condition = ft.Text(size=20, color=ft.Colors.AMBER_200)
-                                  wind = ft.Text(size=16, color=ft.Colors.WHITE70)
+                                  wind = ft.Text(size=16, color=ft.Colors.WHITE)
                                   error = ft.Text(color=ft.Colors.RED_300)
 
                                   def load(e=None):
