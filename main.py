@@ -57,5 +57,5 @@ def main(page: ft.Page):
             page.add(city ,card, error, ft.Button("Refresh" , on_click=Refresh))
                                                  
             load()
-    if __name__ == "__main__":
+if __name__=="__main__":
         ft.run(main)
